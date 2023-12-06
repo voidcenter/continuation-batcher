@@ -1,16 +1,21 @@
 {
-  "circuit": "test.vkeyfull.data",
-  "k": 8,
-  "instance_size": [
-    1
-  ],
-  "transcripts": [
-    "test.0.transcript.data"
-  ],
-  "instances": [
-    "test.0.instance.data"
-  ],
-  "hashtype": "Poseidon",
-  "param": "K8.params",
-  "name": "test"
-}
+    "circuit": "zkwasm.circuit.data",
+    "instance_size": [
+      3
+    ],
+    "transcripts": [
+      "zkwasm.0.transcript.data",
+      "zkwasm.1.transcript.data",
+      "zkwasm.2.transcript.data"
+    ],
+    "instances": [
+      "zkwasm.0.instance.data",
+      "zkwasm.1.instance.data",
+      "zkwasm.2.instance.data"
+    ],
+    "hashtype": "Poseidon",
+    "param": "K18.params",
+    "name": "test"
+  }
+
+  
